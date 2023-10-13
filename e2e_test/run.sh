@@ -1,0 +1,25 @@
+python main.py \
+--appkey demo_appkey \
+--scene_id_list 11111 \
+--adjust_time 3 \
+--retry_times 3 \
+--mis_id xxxx \
+--metric_file predict_with_performance_model_exp/data/demo_svc_data/metric_qps.json \
+--metric_data_interval 5 \
+--predict_file predict_with_performance_model_exp/data/demo_svc_data/predict_qps.json \
+--predict_data_interval 5 \
+--predict_horizon 12 \
+--raptor_cookie "xxxxxx" \
+--env test \
+--request_type URL \
+--performance_table_file predict_with_performance_model_exp/data/demo_svc_data/performance_table.json \
+--scale_idc xxx \
+--scale_image "xxxxxxxx" \
+--single_pod_qps 200 \
+--tp99_slo 60 \
+--save_metric_folder log \
+--mode 1 \
+#--pressure_start_qps 200 \
+#--pressure_end_qps 3000 \
+#--pressure_qps_step 100 \
+#--scale_switch
