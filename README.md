@@ -1,4 +1,4 @@
-# Qos-aware Prediction-based  Horizontal Autoscaling for Web Applications
+# PASS: Predictive Auto-Scaling System for Large-scale Enterprise Web Applications
 > An Intelligent Autoscaling System
 ## Getting Started
 configuration requirements before development:
